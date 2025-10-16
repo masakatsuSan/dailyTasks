@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    font-weight: 300;
+}
+#nav{
+    padding: 20px 70px;
+}
+#nav a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#bottomleft{
+    width: 300px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    background-color: #f1d4d4;
+    padding: 10px;
+}
+#bottomleft h4{
+    margin-top: 35px;
+    font-size: 25px;
+}
+#bottomleft h3{
+    font-size: 25px;
+}
+p{
+    margin-top: 7px;
+}

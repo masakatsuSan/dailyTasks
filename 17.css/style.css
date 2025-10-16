@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #000000;
+}
+h1{
+    font-size: 200px;
+    color: transparent;
+    background-image: url(https://getwallpapers.com/wallpaper/full/7/2/6/1373877-cool-text-backgrounds-1920x1080-for-1080p.jpg);
+    background-clip: text;
+    background-size: cover;
+
+}
+h2{
+    color: aliceblue;
+    font-size: 200px;
+    -webkit-text-stroke: 2px red;
+}

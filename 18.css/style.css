@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    background-color: #000000;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 30% 1fr 20%;
+    grid-gap: 20px;
+    
+}
+.child{
+    background-color: rebeccapurple;
+    border: 2px solid whitesmoke;
+}
+#child1{
+    grid-row: 1/3;
+   
+}
+#child8{
+    grid-column: 1/4;
+}
+#child4{
+    grid-row: 2/4;
+}

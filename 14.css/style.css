@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#box1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+#box2{
+    background-color: rgb(47, 255, 0);
+    height: 200px;
+    width: 200px;
+}
+#box3{
+    background-color: rgb(0, 255, 229);
+    height: 200px;
+    width: 200px;
+}
+#box4{
+    background-color: rgb(255, 217, 0);
+    height: 200px;
+    width: 200px;
+}

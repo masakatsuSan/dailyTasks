@@ -1,0 +1,28 @@
+@font-face {
+  font-family: nicefont;
+  src: url(../TTF/KineksRound-SemiBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: red;
+  background-color: aqua;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+}
+/* # tag is used for the id to change the css */
+#category {
+  color: black;
+  font-family: nicefont;
+}

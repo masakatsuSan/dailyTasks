@@ -1,0 +1,5 @@
+hello world !
+git init ---> used once in the project where it tell that we are now connected to the git and files are ready for the version control --> this converts thr folder/current directories to the working directories
+git add . --> now  filed are staged
+git commit -m "read me file is creates" --> now files are in local repositories
+
