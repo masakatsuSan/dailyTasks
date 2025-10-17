@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@mixin flexCenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin button-style($bg-color){
+    background-color: $bg-color;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    @include flexCenter();
+    section{
+        height: 50%;
+        width: 50%;
+        background-color: #fff;
+        @include flexCenter();
+        h1{
+            color: black;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .blue{
+            @include button-style(blue)
+        }
+        .red{
+            @include button-style(red)
+        }
+
+    }
+}
