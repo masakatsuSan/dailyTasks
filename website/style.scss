@@ -18,14 +18,14 @@ html{
     font-size: clamp(14px,1.5vw,18px);
 }
 body{
-    background-color: #000000;
+    background-color: #000000e7;
 }
 main{
     width: 100%;
     @include flex-column(0);
     align-items: center;
 
-    section{
+    section.view1{
         width: 100%;
         @include flex-column(0.5rem);
         padding: 1rem; 
@@ -39,9 +39,10 @@ main{
         }
         .bottom{
             width: 100%;
-            @include flex-column(1.9rem);
+            @include flex-column(2.4rem);
             background-color: #3b3b3bb2;
             padding: 2rem;
+            font-size: 1.5rem;
             border-radius: 1rem;
             .text{
                 @include flex-column(1rem);
@@ -64,7 +65,36 @@ main{
             }
         }
     }
+    section.view2{
+        @include flex-column(2.5rem);
+        padding: 1rem;              
+        width: 100%;
+        .top,.bottom{
+            display: flex;
+            justify-content: space-around;
+
+
+            .element{
+                text-align: center;
+                @include flex-column(0.5rem);
+                small{
+                    opacity: 0.6;
+                }
+                h1{
+                    font-size: 3rem;
+                    font-weight: 300;
+                }
+            }
+        }
+
+    }
+
+
+
+
 }
+
+
 
 section{
     max-width: 1600px;
@@ -72,7 +102,7 @@ section{
 
 @media (min-width:900px){
     main{
-        section{
+        section.view1{
             gap: 2rem;
             flex-direction: row;
             .top,.bottom{
@@ -100,5 +130,22 @@ section{
             }
 
         }
+        section.view2{
+            gap: 2rem;
+            flex-direction:row;
+            justify-content: space-evenly;
+            padding: 2rem;
+
+            .bottom,.top{
+                gap: 5rem;
+                }
+                
+            }
+            
+
+
+            
+
+            
+        }
     }
-}
