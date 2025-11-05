@@ -40,6 +40,10 @@
 // let results = score<30 ? "fail" : "Pass"
 // console.log(results);
 
-let temp = 28
-let results = temp > 30 ? "Hot" : "Pleasent"
-console.log(results)
+// let temp = 28
+// let results = temp > 30 ? "Hot" : "Pleasent"
+// console.log(results)
+
+// ternary operator --> condition ? true : false ;
+
+(12<13) ? console.log("True") : console.log("False")
