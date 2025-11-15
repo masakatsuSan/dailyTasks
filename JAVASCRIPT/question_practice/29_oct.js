@@ -46,4 +46,9 @@
 
 // ternary operator --> condition ? true : false ;
 
-(12<13) ? console.log("True") : console.log("False")
+// (12<13) ? console.log("True") : console.log("False")
+
+for( let i = 1 ; i < 9 ; i++){
+    console.log(i);
+    
+}
