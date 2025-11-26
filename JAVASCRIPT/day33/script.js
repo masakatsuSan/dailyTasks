@@ -147,10 +147,33 @@
 // 18. Ask user 5 numbers. Count how many are positive
 // Use loop + condition + counter.
 
+// count = 0 
+// pos = 0
+// while (count<5){
+//     num = prompt("Enter your numbers ...")
+//     if (num > 0){
+//         pos++
+//     }
+//     count++
+// }
+// console.log(pos)
+
+
+
 // 19. ATM Simulator – Allow 3 withdrawals
 // Start with ₹1000 balance. Ask withdrawal amount 3 times.
 // If enough balance → deduct
 // Else → print “Insufficient balance”
+
+
+
+
+
+
+
+
+
+
 
 // let pass = prompt("Enter your password :")
 // if (pass === "Hardcoder"){
