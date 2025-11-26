@@ -165,15 +165,22 @@
 // If enough balance → deduct
 // Else → print “Insufficient balance”
 
-
-
-
-
-
-
-
-
-
+// let balance = 1000
+// let flag = false
+// let counter = 0 
+// while (counter != 3 && balance > 0 ){
+//     let money = +prompt("kitne nikalne hain")
+//     counter ++
+//     if (money <= balance)balance -= money
+//     else{
+//         flag = true
+//         break
+//     }
+// }
+// if(flag){
+//     console.log("insufficiant amount")
+// }
+// console.log(`amt left ${balance}`)
 
 // let pass = prompt("Enter your password :")
 // if (pass === "Hardcoder"){
