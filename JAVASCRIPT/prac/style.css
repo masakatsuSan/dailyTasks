@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+
+}
+#inc{
+    border-color:rgb(0, 0, 0);
+    background-color: green;
+    color: black;
+    padding: 4px;
+    border-radius: 7px;
+    font-weight: 900;
+}
+
+
+#dec{
+    border-color:rgb(0, 0, 0);
+    background-color: rgb(220, 54, 54);
+    color: black;
+    padding: 4px;
+    border-radius: 7px;
+    font-weight: 900;
+}
