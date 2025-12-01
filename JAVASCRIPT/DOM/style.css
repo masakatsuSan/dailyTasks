@@ -9,19 +9,36 @@ body,html{
     height: 100%;
     width: 100%;
 }
+
+#box{
+    text-align: center;
+    padding-top: 50px;
+}
 body{
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #box{
+    border-radius: 12px;
+    border : 2px white solid;
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 button{
-    background-color: grey;
-    color: black;
+    background-color: rgb(49, 241, 225);
+    color: rgb(44, 42, 42);
     border-radius: 20px;
     padding: 7px;
-    border: none;
+    border: transparent;
     margin-top: 10px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+button:active{
+    scale:0.955;
 }

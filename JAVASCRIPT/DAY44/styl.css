@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+    height: 100%;
+}
+button{
+    background-color: #00ffd0;
+    padding: 7px;
+    margin: 5px;
+    border: rgb(141, 138, 138) 2px solid;
+    border-radius: 13px;
+    font-size: 15px;
+    font-weight: 800;
+}
