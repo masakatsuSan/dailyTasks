@@ -13,6 +13,5 @@ btn.addEventListener("click",function(){
     div.style.backgroundColor = `rgb(${c1},${c2},${c3})`
     div.style.top = x+"%"
     div.style.left = y+"%"
-        
     main.appendChild(div)
 })
