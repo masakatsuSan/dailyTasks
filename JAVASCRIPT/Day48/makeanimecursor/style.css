@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    cursor: none;
+}
+#main{
+    height: 200%;
+    width: 100%;
+}
+#sukuna{
+    height: 50px;
+    position: fixed;/* absolute mein cursor scroll mein bug ata hain*/
+    transform: translate(-50%,-50%);
+}
