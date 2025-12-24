@@ -3,5 +3,5 @@ var main = document.getElementById("main")
 main.addEventListener("mousemove",function(val){
     cursour.style.left = val.x + "px"
     cursour.style.top = val.y + "px"
-    
+    /* right , bottom dene se opp dir mein jayega */
 })
