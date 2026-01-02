@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #313030;
+    border-radius: 18px;
+}
+.element h2{
+    padding: 10px;
+    font-size: 50px;
+}
+button{
+    padding: 9px;
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: rgb(79, 191, 251);
+}
