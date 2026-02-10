@@ -16,28 +16,23 @@ body{
     gap: 20px;
 }
 
-@keyframes bgcchange{
+@property --bgColor {
+    syntax: "<color>";
+    initial-value: rgb(188, 46, 244);
+    inherits: false;
+}
+@keyframes animateBgColor{
     from{
-        border: 10px solid white;
-        border-radius: 1px;
-        transform: translateX(0px);
-        background: white;
+        --bgColor:red;
     }
     to{
-        border: 10px solid rgb(255, 0, 0);
-        border-radius: 20px;
-        transform: translateX(100px);
-        background-color: red;
-
+        --bgColor:blue;
     }
 }
-
 .box1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 200px;    
     width: 400px;
-    animation: bgcchange 3s forwards;
+    background-color: var(--bgColor);
+    animation: animateBgColor 5s forwards;
     border: 10px solid white;
 }
