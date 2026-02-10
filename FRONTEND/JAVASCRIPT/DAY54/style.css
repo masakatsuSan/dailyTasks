@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    background-color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@keyframes bgcchange{
+    from{
+        border: 10px solid white;
+        border-radius: 1px;
+        transform: translateX(0px);
+        background: white;
+    }
+    to{
+        border: 10px solid rgb(255, 0, 0);
+        border-radius: 20px;
+        transform: translateX(100px);
+        background-color: red;
+
+    }
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;    
+    width: 400px;
+    animation: bgcchange 3s forwards;
+    border: 10px solid white;
+}
