@@ -18,7 +18,14 @@
 // - Samajhna ki callback delay ke baad kaise execute hota hai
 // - Ye `setTimeout` + callback connection hai
 
-// ---
+function afterdelay(time, cb) {
+  setTimeout(function () {
+    cb()
+  }, time)
+}
+afterdelay(3000, function () {
+  console.log("this line is exicuted after 3 sec")
+})
 
 // ## Exercise 2 — Intermediate (Data flow)
 
@@ -45,7 +52,22 @@
 // - Samajhna ki ek async ka result next async ko kaise milta hai
 // - Callback chaining practice
 
-// ---
+function igdata(usrname, cb) {
+  console.log("loadind....")
+  setTimeout(function () {
+    cb({ userdata: "hello", Uniqueid: "byee" })
+  }, 1000)
+}
+function metapejaodatalao(uni, cb) {
+  setTimeout(function () {
+    cb(["img1", "img2"])
+  }, 4000)
+}
+igdata("Sumith", function (details) {
+  metapejaodatalao(details.uni, function (images) {
+    console.log(images)
+  })
+})
 
 // ## Exercise 3 — Intermediate (Callback dependency — thoda painful)
 
@@ -70,7 +92,29 @@
 // - Callback nesting ko feel karna
 // - Yehi structure baad mein callback hell banta hai
 
-// ---
+function loginUser(username, cb) {
+  setTimeout(function () {
+    cb({ id: 123, username: "harsh" })
+  }, 1000)
+}
+function fetchPermission(id, cb) {
+  setTimeout(function () {
+    cb(["read", "write"])
+  }, 2000)
+}
+function loadDashboard(permission, cb) {
+  setTimeout(function () {
+    cb()
+  }, 2000)
+}
+
+loginUser("harsh", function (userdata) {
+  fetchPermission(userdata.id, function (permission) {
+    loadDashboard(permission, function () {
+      console.log("dashboard loaded")
+    })
+  })
+})
 
 // ### Notes
 // - Practice in plain JavaScript using `setTimeout` and callbacks to understand the flow before converting to Promises/async–await.
