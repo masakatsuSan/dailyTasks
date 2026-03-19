@@ -7,6 +7,8 @@
 
 Debouncing ensures that a function executes only after a specified period of inactivity. If the event keeps firing repeatedly, the function is delayed until the event stops.
 
+jab banda type karna ruk deta hain aur fir 1-2 ke bad recommendation ata hain ...
+
 In simple terms: "Run the function only after the last event — wait until the user pauses."
 
 #### 1.2 Benefits of Debouncing
