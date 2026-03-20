@@ -4,3 +4,5 @@ var king = {
     inForm : "True"
 }
 export default king
+
+export const user = "Sumith"

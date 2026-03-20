@@ -1,8 +1,15 @@
-import king from "./app"
+import king from "./app.js"
 console.log(king.name)
 
+
+// default export kisi bhi name ka import se export hota hain but ek named export sirf apne hi name se export hota hian vo bhi {curly bracket ke sath}
+
+
+import { user } from "./app.js"
+console.log(user)
+
 let arr1 = [10,20,30,40,50,60]
-let arr2 = arr1
+let arr2 = arr1 
 let arr3 = [...arr1]
 arr3.push(4)
 console.log(arr2)
