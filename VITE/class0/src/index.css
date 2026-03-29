@@ -10,3 +10,11 @@ html,body{
   background-color: rgb(3, 1, 47);
   color: rgb(242, 235, 227);
 }
+.nav{
+  background-color: #ffffff;
+  color: black;
+}
+.foot{
+  background-color: #754242;
+  color:aquamarine;
+}
